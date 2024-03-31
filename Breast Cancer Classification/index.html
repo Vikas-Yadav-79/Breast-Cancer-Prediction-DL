@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Cancer Classification</title>
+</head>
+<body>
+    <h1>Breast Cancer Classification</h1>
+    <form action="/predict" method="post">
+        <label for="features">Enter features:</label><br>
+        <!-- Add input fields for each feature -->
+        <input type="text" id="feature1" name="feature1"><br>
+        <input type="text" id="feature2" name="feature2"><br>
+        <!-- Add more input fields for other features -->
+        <input type="submit" value="Predict">
+    </form>
+    <div id="result"></div>
+
+    <script>
+        // You can add JavaScript to handle form submission and display results here
+    </script>
+</body>
+</html>
